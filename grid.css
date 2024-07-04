@@ -13,7 +13,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    grid-template-areas: ;
+    grid-template-areas: "header header header" "main menu sidebar" "main footer footer";
 }
 
 .box {
